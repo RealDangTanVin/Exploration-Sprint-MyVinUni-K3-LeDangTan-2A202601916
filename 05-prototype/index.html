@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#32aaa7">
+  <title>MyVinmec · Hành trình khám chủ động</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <aside class="sidebar">
+    <a class="brand" href="#home"><span class="brand-mark">v<span>✦</span></span><div>MyVinmec<small>EXPERIENCE LAB</small></div></a>
+    <div class="rail-label">PROTOTYPE / 01</div>
+    <h2>Một hành trình khám,<br>ít bối rối hơn.</h2>
+    <nav id="scenario-nav" aria-label="Các luồng prototype"></nav>
+    <div class="rail-bottom"><span class="live-dot"></span> Bản thử tương tác <span>v1.0</span><p>Dựa trên 6 màn hình tham chiếu<br>MyVinmec & Zalo · 18.10.2026</p></div>
+  </aside>
+  <main class="workspace">
+    <header class="workspace-header"><div><span class="eyebrow">MYVINMEC / CẢI TIẾN TRẢI NGHIỆM</span><h1>Đi khám, nhẹ đầu hơn.</h1></div><button class="reference-button" id="open-references">Xem màn tham chiếu <span>↗</span></button></header>
+    <div class="workspace-grid">
+      <section class="preview-area" aria-label="Điện thoại mô phỏng">
+        <div class="preview-label"><span class="live-dot"></span><span id="screen-caption">MyVinmec · Trang chủ</span><span class="preview-size">390 × 844</span></div>
+        <div class="phone"><div class="phone-status"><b>9:41</b><div class="island"></div><span>▮▮▮ &nbsp;⌁ &nbsp;▰</span></div><div id="app" class="app"></div><div class="home-indicator"></div></div>
+        <p class="preview-hint">Bấm trực tiếp trên màn hình để trải nghiệm <span>↑</span></p>
+      </section>
+      <aside class="context-panel" id="context-panel"></aside>
+    </div>
+    <footer class="workspace-footer"><span>Thiết kế từ trải nghiệm thực tế</span><span>Dữ liệu hư cấu · Không kết nối bệnh viện hoặc Zalo</span></footer>
+  </main>
+  <dialog id="references"><div class="dialog-head"><div><span class="eyebrow">THIẾT KẾ TỪ MÀN HÌNH BẠN CUNG CẤP</span><h2>6 màn hình tham chiếu</h2></div><button class="icon-button" id="close-references" aria-label="Đóng màn tham chiếu">×</button></div><p class="muted">Ảnh gốc chỉ để đối chiếu thiết kế. Các luồng tương tác dùng thông tin hư cấu.</p><div class="reference-grid" id="reference-grid"></div></dialog>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  <script type="module" src="app.js"></script>
+</body>
+</html>

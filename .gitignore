@@ -1,1 +1,11 @@
 .commandcode/
+
+# Keep any original research material private; publish redacted notes only.
+**/raw-*
+**/private-*
+*.wav
+*.mp3
+*.m4a
+Thumbs.db
+.DS_Store
+debug.log
