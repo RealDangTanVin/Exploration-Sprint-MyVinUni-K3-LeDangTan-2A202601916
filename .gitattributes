@@ -1,0 +1,6 @@
+# Preserve document and image bytes across platforms.
+*.pdf binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.zip binary

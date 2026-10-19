@@ -1,57 +1,56 @@
-# Rủi ro và cách giảm thiểu
+# Rủi ro & đạo đức
 
-## Gợi ý sai khoa hoặc bỏ qua trường hợp cần hỗ trợ ngay
+> **Đúng người · Rõ trạng thái · Bảo vệ thông tin · Có người hỗ trợ**
 
-Mô tả triệu chứng có thể mơ hồ và phù hợp nhiều hướng khám. Gợi ý sai có thể làm người khám đi lòng vòng hoặc chậm được tiếp nhận. Vì vậy, phần đối chiếu triệu chứng với khoa cần được người có chuyên môn thiết kế, duyệt và đánh giá; một dòng “không chẩn đoán” chưa đủ để xử lý rủi ro này.
+Các biện pháp dưới đây dành cho [prototype](../05-prototype/README.md), cần được cơ sở xác nhận trước khi dùng thực tế.
 
-Trợ lý chỉ đề xuất hướng liên hệ có căn cứ, để người dùng xem lại và nhân viên xác nhận. Khi chưa đủ thông tin, chuyển người hỗ trợ. Không dùng vài từ khóa hoặc câu trả lời tự tin của AI để kết luận người dùng không cần cấp cứu.
+## An toàn khi đặt khám
 
-**Nếu đang cần hỗ trợ y tế khẩn cấp:** báo nhân viên y tế gần nhất; gọi 115 khi cần cấp cứu. Không chờ chatbot, lịch hẹn hoặc tin nhắn. Xem [thông tin cấp cứu của Vinmec](https://www.vinmec.com/vie/chuyen-khoa/cap-cuu) và [thông tin về cấp cứu 115 từ Cổng thông tin Chính phủ](https://thanglong.chinhphu.vn/chay-dua-tung-giay-cap-cuu-115-ha-noi-giu-nhip-song-cho-nguoi-dan-103250813170026301.htm). Không gọi thử khi kiểm tra demo.
+| Rủi ro | Cách giảm thiểu |
+| :--- | :--- |
+| **Gợi ý sai khoa hoặc bỏ qua trường hợp cần hỗ trợ ngay** | Không dùng vài từ khóa để chẩn đoán, tự phân khoa hay kết luận không cần cấp cứu. Nhu cầu chưa rõ chuyển nhân viên; người dùng được xem lại trước khi gửi. Nếu có chức năng đối chiếu triệu chứng với khoa, cần chuyên môn thiết kế, duyệt và đánh giá. |
+| **Tự điền nhầm người hoặc thông tin cũ** | Xác nhận đang đặt cho ai; chỉ dùng dữ liệu được cho phép, cho xem và sửa từng mục. Không đoán phần còn thiếu hoặc ghi đè hồ sơ thật. Khi dùng thật cần kiểm tra định danh và quyền đặt hộ; tài khoản Zalo không thay việc xác minh người khám. |
 
-## Điền nhanh nhưng điền sai người hoặc sai thông tin
+> **Khi cần hỗ trợ y tế khẩn cấp:** báo nhân viên y tế gần nhất hoặc gọi **115** khi cần cấp cứu. Không chờ chatbot, lịch hẹn hay tin nhắn. **Không gọi thử khi kiểm tra demo.**
 
-Thông tin tự điền có thể cũ, nhầm hồ sơ hoặc nhầm người được đặt khám hộ. Cần xác nhận đang đặt cho ai, chỉ dùng dữ liệu đã được cho phép và để người dùng xem, sửa từng mục trước khi gửi. Không tự đoán thông tin còn thiếu hoặc ghi đè hồ sơ thật.
+[Thông tin cấp cứu 115 — Cổng thông tin Chính phủ](https://thanglong.chinhphu.vn/chay-dua-tung-giay-cap-cuu-115-ha-noi-giu-nhip-song-cho-nguoi-dan-103250813170026301.htm) · [Cấp cứu Vinmec](https://www.vinmec.com/vie/chuyen-khoa/cap-cuu).
 
-Trong demo chỉ dùng hồ sơ hư cấu. Khi triển khai thật, bệnh viện phải kiểm tra định danh và quyền đặt hộ; xác minh đúng tài khoản Zalo không đồng nghĩa đã xác minh đúng người đi khám.
+---
 
-## Lộ thông tin sức khỏe qua cuộc trò chuyện
+## Thông tin riêng tư & quyền lựa chọn
 
-Triệu chứng và khoa khám có thể tiết lộ thông tin riêng tư. Chỉ hỏi phần cần thiết để hỗ trợ tiếp nhận; nói rõ mục đích và ai được xem. Không mặc định được dùng nội dung đó để huấn luyện AI, quảng cáo hoặc gửi sang bên khác.
+| Rủi ro | Cách giảm thiểu |
+| :--- | :--- |
+| **Lộ thông tin sức khỏe qua chat hoặc thông báo** | Chỉ hỏi phần cần thiết, nói rõ mục đích và ai được xem. Không mặc định dùng nội dung để huấn luyện AI, quảng cáo hoặc chia sẻ tiếp.<br><br>Thông báo ngoài app chỉ ghi “Lịch hẹn có cập nhật”; chi tiết cần kiểm tra quyền truy cập. Có cách đổi hoặc ngừng liên kết khi dùng máy chung hay đổi số, không dựa riêng vào số điện thoại.<br><br>Chi tiết sức khỏe nên nhập tại nơi an toàn do cơ sở duyệt. Chat Zalo vẫn cần đánh giá rủi ro lưu/chia sẻ riêng; tài khoản chính thức chưa đủ để bảo đảm riêng tư. |
+| **Quá tin vào AI hoặc bị dẫn dắt lựa chọn** | Nói rõ đang trao đổi với AI và có đường tìm nhân viên. Cho sửa gợi ý hoặc làm thủ công; không xếp khoa, bác sĩ hay dịch vụ theo lợi ích thương mại mà không giải thích. |
 
-Thông báo bên ngoài chỉ nên viết “Lịch hẹn có cập nhật”, không hiện triệu chứng hoặc tên khoa trên màn hình khóa. Khi cần xem chi tiết phải có bước kiểm tra quyền truy cập. Cần có cách đổi hoặc ngừng liên kết tài khoản khi dùng máy chung hay đổi số; không dựa riêng vào số điện thoại.
+**Căn cứ:** WHO cảnh báo AI y tế có thể trả lời sai và gây thiên lệch do quá tin vào tự động hóa. Các đề xuất này chưa phải chứng nhận an toàn. [Hướng dẫn của WHO](https://www.who.int/news/item/18-01-2024-who-releases-ai-ethics-and-governance-guidance-for-large-multi-modal-models).
 
-Nếu cần nhập chi tiết sức khỏe, ưu tiên chuyển tới nơi nhập an toàn do cơ sở duyệt. Người dùng vẫn có thể tự kể triệu chứng trong chat Zalo, nên cần giải thích phạm vi lưu/chia sẻ và đánh giá riêng rủi ro của kênh này, không coi tài khoản chính thức là đủ bảo vệ dữ liệu.
+---
 
-Bản thử không gửi mạng, không lưu hồ sơ sau khi tải lại trang và không dùng dữ liệu thật. Trước khi dùng thật cần thống nhất nơi lưu, thời gian giữ/xóa, quyền truy cập và cách xử lý sự cố với cơ sở.
+## Thông tin khi chờ khám
 
-## Tin nhắn sai, trễ hoặc không tới
+| Rủi ro | Cách giảm thiểu |
+| :--- | :--- |
+| **Tin nhắn sai, trễ hoặc không tới** | Bệnh viện là nguồn xác nhận trạng thái. Hiện thời điểm cập nhật và cách kiểm tra thông tin mới nhất; gửi thành công không có nghĩa đã đọc hoặc đã đến đúng nơi.<br><br>Khi mất cập nhật, dừng dùng hướng dẫn và thời gian cũ, chỉ nơi hỏi nhân viên. Không tự bỏ lượt vì người dùng chưa đọc tin. Giữ hỗ trợ tại quầy, kênh thay thế và quyền không dùng Zalo. |
+| **Hiểu thời gian dự kiến là lời hứa** | Phân biệt giờ mong muốn, lịch đã xác nhận, giờ vào khám và giờ hoàn tất cả ngày. Chỉ dùng ước lượng có nguồn được cơ sở xác nhận; nói rõ khi thay đổi hoặc chưa ước lượng được. Không hứa khám đúng giờ hoặc xong trong một buổi. Số phút trong demo là minh họa. |
+| **Trò chuyện làm bỏ lỡ lượt** | Chỉ bật nội dung giải trí khi người dùng chọn, có nút dừng. Khi có thông báo quan trọng hoặc lời mời khám, dừng trò chuyện và đưa thông báo lên trước. Không kéo dài chat bằng câu hỏi sức khỏe, tư vấn thuốc hay bán thêm dịch vụ lúc người dùng lo lắng. Đánh giá việc hiểu hướng dẫn, không lấy thời gian ở lại chatbot làm mục tiêu. |
 
-Người dùng có thể mất mạng, tắt thông báo, chặn tài khoản hoặc nhận tin sau khi tình hình đã đổi. Bệnh viện cần là nguồn xác nhận trạng thái; thông báo phải có thời điểm cập nhật và cách xem trạng thái mới nhất. Tin gửi thành công chưa có nghĩa người bệnh đã đọc hoặc đã đến đúng nơi.
-
-Khi mất cập nhật, dừng dùng thời gian và hướng dẫn cũ, chỉ nơi hỏi nhân viên. Không tự bỏ lượt hoặc gây bất lợi cho người không đọc tin. Luôn có phương án tại quầy và kênh liên hệ khác phù hợp; người dùng được chọn không dùng Zalo.
-
-Việc gửi thật phải tuân theo [điều kiện của Zalo](https://zalo.solutions/terms). Bản này chưa kiểm tra toàn bộ yêu cầu pháp lý hoặc chính sách của bệnh viện.
-
-## Hiểu nhầm thời gian dự kiến là lời hứa
-
-Giờ mong muốn, lịch đã xác nhận, thời điểm được vào khám và giờ hoàn tất cả ngày là những mốc khác nhau. Cần viết rõ từng mốc; AI không tự hứa khám đúng giờ hoặc khám xong trong một buổi.
-
-Chỉ hiển thị ước lượng từ nguồn được cơ sở xác nhận, nói rõ khi thay đổi và khi chưa ước lượng được. Các con số trong demo hoàn toàn là minh họa.
-
-## Trò chuyện làm người khám mất tập trung
-
-Nội dung giải trí có thể giúp một số người nhưng gây phiền cho người khác hoặc khiến họ bỏ lỡ lượt. Chỉ bật khi họ chọn, có nút dừng rõ và không ảnh hưởng quyền nhận thông báo. Khi có cập nhật quan trọng hoặc lời mời khám, dừng nội dung trò chuyện và đưa thông báo lên trước.
-
-Không hỏi sâu chuyện sức khỏe để kéo dài tương tác, không tư vấn thuốc, không chèn bán thêm dịch vụ vào lúc người dùng lo lắng. Thành công nên được đánh giá bằng việc hiểu hướng dẫn và nhận biết cập nhật, thay vì thời gian ở lại chatbot.
-
-## Người dùng tin AI hơn mức nên tin
-
-Cần nói rõ đang trao đổi với AI và có đường tìm nhân viên. Người dùng được sửa gợi ý hoặc chọn cách làm thủ công. Không xếp khoa, bác sĩ hoặc dịch vụ theo lợi ích thương mại mà không giải thích.
-
-WHO lưu ý AI trong y tế có thể trả lời sai và khiến con người quá tin vào kết quả tự động. Các biện pháp ở đây là đề xuất cho prototype, không phải chứng nhận an toàn. [Hướng dẫn và cảnh báo của WHO](https://www.who.int/news/item/18-01-2024-who-releases-ai-ethics-and-governance-guidance-for-large-multi-modal-models).
+---
 
 ## Trước một buổi thử
 
-Dùng tình huống hư cấu, xin đồng ý trước và nói rõ chưa có yêu cầu nào gửi tới bệnh viện. Không hỏi bệnh sử hoặc yêu cầu đưa hồ sơ thật. Nếu người thử nhập thông tin riêng tư, muốn dừng hoặc tưởng đây là dịch vụ thật, dừng và giải thích lại.
+- [ ] Xin đồng ý, dùng tình huống và hồ sơ hư cấu.
+- [ ] Nói rõ chưa có yêu cầu nào gửi tới bệnh viện; không hỏi bệnh sử hay yêu cầu hồ sơ thật.
+- [ ] Dừng và giải thích lại nếu người thử nhập thông tin riêng tư, muốn dừng hoặc tưởng đây là dịch vụ thật.
 
-Trước khi triển khai ngoài nghiên cứu, cần chuyên môn duyệt việc gợi ý khoa, có người chịu trách nhiệm nhận chuyển tiếp, xác minh dữ liệu lịch và quyền gửi tin. Chưa có những điều kiện đó thì chỉ thử bằng mô phỏng.
+<details>
+<summary><strong>Giới hạn bản thử & điều kiện dùng thực tế</strong></summary>
+
+Bản thử không gửi mạng, không lưu hồ sơ sau khi tải lại trang và không dùng dữ liệu thật.
+
+Trước khi dùng thực tế cần có người nhận chuyển tiếp, dữ liệu lịch được xác minh, chuyên môn duyệt chức năng liên quan; thống nhất nơi lưu, thời gian giữ/xóa, quyền truy cập và cách xử lý sự cố. Việc gửi tin cần kiểm tra [điều kiện của Zalo](https://zalo.solutions/terms) và chính sách của bệnh viện. Bài này chưa rà đầy đủ yêu cầu pháp lý.
+
+Khi chưa có các điều kiện đó, chỉ thử bằng mô phỏng.
+
+</details>

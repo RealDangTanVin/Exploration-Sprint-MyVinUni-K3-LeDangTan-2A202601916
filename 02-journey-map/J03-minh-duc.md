@@ -132,7 +132,7 @@ Tự đi đến đúng phòng và vào khám, hiểu mình đang ở bước nà
 
 Tên hư cấu; nội dung theo bản final tác giả cung cấp ngày 19/10/2026. Chân dung, câu nói và hành trình chưa được xác thực qua nghiên cứu.
 
-[Đề bài](../README.md) · [Phương pháp và nguồn](../04-best-practice/phuong-phap-persona-journey-qualtrics.md)
+[Đề bài](../README.md) · [Phương pháp và nguồn](../04-best-practice/README.md#phuong-phap-persona-journey)
 
 Nguồn bối cảnh: [WHO về tuổi cao](https://www.who.int/news-room/fact-sheets/detail/ageing-and-health) · [Thông tin dễ tiếp cận](https://extranet.who.int/agefriendlyworld/age-friendly-practices/communication-and-information/).
 

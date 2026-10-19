@@ -1,0 +1,62 @@
+[
+  {
+    "number": 1,
+    "title": "Chủ động từng bước đi khám",
+    "seconds": 30,
+    "image": "images/01-cover.png"
+  },
+  {
+    "number": 2,
+    "title": "Điểm vướng từ lần tự dùng app",
+    "seconds": 55,
+    "image": "images/02-observation.png"
+  },
+  {
+    "number": 3,
+    "title": "Ba bối cảnh cần sự chủ động",
+    "seconds": 55,
+    "image": "images/03-personas.png"
+  },
+  {
+    "number": 4,
+    "title": "Hành trình và nhu cầu chung",
+    "seconds": 65,
+    "image": "images/04-journey.png"
+  },
+  {
+    "number": 5,
+    "title": "Ba bài học cho thiết kế",
+    "seconds": 50,
+    "image": "images/05-best-practices.png"
+  },
+  {
+    "number": 6,
+    "title": "Đặt khám cùng MIA",
+    "seconds": 90,
+    "image": "images/06-mia-booking.png"
+  },
+  {
+    "number": 7,
+    "title": "Chủ động khi chờ",
+    "seconds": 70,
+    "image": "images/07-waiting.png"
+  },
+  {
+    "number": 8,
+    "title": "Điều kiện an toàn",
+    "seconds": 60,
+    "image": "images/08-safety.png"
+  },
+  {
+    "number": 9,
+    "title": "Kiểm chứng hiện tại và bước thử tiếp",
+    "seconds": 65,
+    "image": "images/09-validation.png"
+  },
+  {
+    "number": 10,
+    "title": "Đề nghị vòng kiểm chứng nhỏ",
+    "seconds": 60,
+    "image": "images/10-next-step.png"
+  }
+]

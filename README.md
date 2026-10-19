@@ -34,9 +34,9 @@ Bộ tài liệu ngày **19/10/2026** theo ba nhóm ở trên, dùng bản HTML 
 - [PDF bản trước, chưa cập nhật final](output/pdf/persona-user-journey-onboarding.pdf).
 - [HTML chỉnh sửa trực tiếp](output/html/persona-user-journey-editor.html): mở bằng trình duyệt, bấm nội dung để sửa, dùng **Lưu bản HTML** để giữ file; hỗ trợ nhập/xuất JSON và in/PDF. Bản nháp trình duyệt không thay thế file đã lưu; sửa HTML chưa tự cập nhật Markdown/PDF cũ.
 - [Ba persona](01-phong-van/persona/).
-- [Phương pháp, đối chiếu thực hành và nguồn Qualtrics](04-best-practice/phuong-phap-persona-journey-qualtrics.md).
+- [Best practice và ghi chú phương pháp Qualtrics](04-best-practice/README.md#phuong-phap-persona-journey).
 
-Journey dùng 5 giai đoạn: **nhu cầu/tìm thông tin → đặt lịch → chuẩn bị → đến/check-in → tìm phòng/chờ/vào khám**. Phạm vi dừng ở lúc vào phòng khám; workflow sau xét nghiệm của vòng cũ được giữ riêng để truy vết. Áp dụng phương pháp Qualtrics không đồng nghĩa đã hoàn thành xác thực nghiên cứu; các phần còn thiếu được ghi trong tài liệu phương pháp.
+Journey dùng 5 giai đoạn: **nhu cầu/tìm thông tin → đặt lịch → chuẩn bị → đến/check-in → tìm phòng/chờ/vào khám**. Phạm vi dừng ở lúc vào phòng khám; workflow sau xét nghiệm của vòng cũ được giữ riêng để truy vết. Áp dụng phương pháp Qualtrics không đồng nghĩa đã hoàn thành xác thực nghiên cứu; giới hạn được ghi trong phần best practice.
 
 ## Mục lục
 
@@ -45,12 +45,12 @@ Journey dùng 5 giai đoạn: **nhu cầu/tìm thông tin → đặt lịch → 
 | [01-phong-van/persona/](01-phong-van/persona/) | Ba proto-persona và nguồn nội dung theo từng nhóm. |
 | [01-phong-van/](01-phong-van/) | Nhật ký tự dùng app, bộ câu hỏi, log phỏng vấn và phân tích. Log hiện chưa có câu trả lời đủ để dùng cho persona. |
 | [02-journey-map/](02-journey-map/) | Ba journey onboarding riêng, cảm xúc/điểm đau giả thuyết, cơ hội và đo lường; lưu riêng workflow cũ. |
-| [03-need-statement/](03-need-statement/) | Need statement theo Biodesign: vấn đề – nhóm người dùng – kết quả mong muốn, kèm bằng chứng. |
-| [04-best-practice/](04-best-practice/) | 3 best practice quốc tế có nguồn và bài học cho Việt Nam/Vinmec. |
+| [03-need-statement/](03-need-statement/README.md) | Card nhu cầu chung và nhu cầu riêng của ba persona, tổng hợp từ phần 01–02: người dùng – vấn đề – kết quả mong muốn. |
+| [04-best-practice/](04-best-practice/README.md) | 3 best practice quốc tế có nguồn và bài học cho Việt Nam/Vinmec. |
 | [05-prototype/](05-prototype/) | Prototype có AI, click được; mã nguồn hoặc file thiết kế; prompt; log thử với 2–3 người và ghi chú chỉnh sửa. |
 | [06-rui-ro-dao-duc/](06-rui-ro-dao-duc/) | Rủi ro an toàn, đạo đức, cách giảm thiểu và đường chuyển tuyến khẩn cấp. |
 | [07-coach-plan/](07-coach-plan/) | Một trang kế hoạch coach nhóm K4: lịch làm, cách gỡ khi nhóm kẹt và kiểm tra chất lượng. |
-| [slides/](slides/) | Nơi chuẩn bị nội dung trình bày. File nộp: `slides.pdf`, tối đa 10 slide. |
+| [slides/](slides/README.md) | [PDF 10 slide](slides/slides.pdf), [trình chiếu offline](slides/pitch-10-phut.html) và [lời thuyết trình 10 phút](slides/pitch-10-phut.md). |
 
 ## Nội dung do AI tạo hoặc hỗ trợ
 

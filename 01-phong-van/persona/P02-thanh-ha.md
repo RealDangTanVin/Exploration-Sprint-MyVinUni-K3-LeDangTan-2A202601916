@@ -53,7 +53,7 @@ Dùng điện thoại để tìm thông tin, nhận xác nhận hẹn và lưu g
 
 Tên hư cấu; nội dung theo bản final tác giả cung cấp ngày 19/10/2026. Chân dung, câu nói và hành trình chưa được xác thực qua nghiên cứu.
 
-[Đề bài](../../README.md) · [Phương pháp và nguồn](../../04-best-practice/phuong-phap-persona-journey-qualtrics.md)
+[Đề bài](../../README.md) · [Phương pháp và nguồn](../../04-best-practice/README.md#phuong-phap-persona-journey)
 
 Nguồn bối cảnh: [hồ sơ cá nhân và người thân MyVinmec](https://www.vinmec.com/vie/bai-viet/huong-dan-ket-noi-ho-so-y-te-va-so-tiem-chung-tren-ung-dung-myvinmec-vi).
 

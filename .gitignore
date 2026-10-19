@@ -9,3 +9,9 @@
 Thumbs.db
 .DS_Store
 debug.log
+
+# Generated review files and duplicate delivery archives.
+/tmp/
+__pycache__/
+*.pyc
+/slides/MyVinmec-pitch-10-phut.zip

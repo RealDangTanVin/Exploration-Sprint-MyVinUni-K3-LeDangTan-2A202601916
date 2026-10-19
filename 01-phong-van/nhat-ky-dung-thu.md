@@ -13,4 +13,4 @@
 | APP-04 | Tìm hướng dẫn bước tiếp theo, hỗ trợ | Chưa xác minh tại cơ sở | CHƯA THỬ |  |  |
 | APP-05 | Kiểm tra chữ, đường quay lại, lỗi mạng nếu an toàn | Chưa xác minh | CHƯA THỬ |  |  |
 
-Không dùng tài khoản người khác, không tạo lịch giả, không thanh toán và không truy cập dữ liệu y tế không cần thiết. Nếu cần màn hình tài khoản người tham gia, để họ tự điều khiển; không lưu thông tin riêng. Tham chiếu [sổ nguồn](../04-best-practice/nguon-nghien-cuu.md).
+Không dùng tài khoản người khác, không tạo lịch giả, không thanh toán và không truy cập dữ liệu y tế không cần thiết. Nếu cần màn hình tài khoản người tham gia, để họ tự điều khiển; không lưu thông tin riêng. Tham chiếu [sổ nguồn](https://github.com/RealDangTanVin/Exploration-Sprint-MyVinUni-K3-LeDangTan-2A202601916/blob/3cbcc36315e6eeeaa602abfc2e556958edb2a4cb/04-best-practice/nguon-nghien-cuu.md).

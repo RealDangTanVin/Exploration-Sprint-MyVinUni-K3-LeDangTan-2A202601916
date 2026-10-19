@@ -132,7 +132,7 @@ Muốn biết tình hình bệnh của bản thân
 
 Tên hư cấu; nội dung theo bản final tác giả cung cấp ngày 19/10/2026. Chân dung, câu nói và hành trình chưa được xác thực qua nghiên cứu.
 
-[Đề bài](../README.md) · [Phương pháp và nguồn](../04-best-practice/phuong-phap-persona-journey-qualtrics.md)
+[Đề bài](../README.md) · [Phương pháp và nguồn](../04-best-practice/README.md#phuong-phap-persona-journey)
 
 **Phạm vi:** Từ nhu cầu đi khám đến khi vào phòng khám lâm sàng. Áp dụng cho phần tiếp nhận của cả lần khám đầu và khám lại; kết thúc trước nội dung khám, xét nghiệm và thanh toán.
 
