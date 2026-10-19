@@ -2,7 +2,7 @@
 
 > **Đúng người · Rõ trạng thái · Bảo vệ thông tin · Có người hỗ trợ**
 
-Các biện pháp dưới đây dành cho [prototype](../05-prototype/README.md), cần được cơ sở xác nhận trước khi dùng thực tế.
+Các biện pháp dưới đây dành cho [prototype](../05-prototype/prototype.html), cần được cơ sở xác nhận trước khi dùng thực tế.
 
 ## An toàn khi đặt khám
 
