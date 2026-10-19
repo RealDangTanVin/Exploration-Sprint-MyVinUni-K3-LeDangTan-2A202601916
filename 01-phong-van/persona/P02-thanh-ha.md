@@ -1,5 +1,3 @@
-[Minh An](P01-minh-an.md) · **Thanh Hà** · [Minh Đức](P03-minh-duc.md)
-
 # Thanh Hà
 
 ![Chăm con và tổ chức lần khám mà không bỏ sót thủ tục](assets/thanh-ha-persona.svg)

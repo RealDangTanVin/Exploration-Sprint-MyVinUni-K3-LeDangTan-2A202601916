@@ -1,5 +1,3 @@
-**Minh An** · [Thanh Hà](P02-thanh-ha.md) · [Minh Đức](P03-minh-duc.md)
-
 # Minh An
 
 ![Tự tổ chức lần đi khám trong lịch làm việc](assets/minh-an-persona.svg)
@@ -14,7 +12,7 @@
 
 | 🎯 Mục tiêu của người dùng | ✦ Điều thúc đẩy hành động |
 | :--- | :--- |
-| **Muốn biết tình hình bệnh của bản thân**<br><br>**Kết quả mong muốn**<br><br>• Cảm thấy an tâm khi nghe kết quả | • Tự giải quyết việc chăm sóc sức khỏe mà không phải dựa hoàn toàn vào người thân.<br><br>• Có cơ sở sắp xếp công việc thay vì phải ước đoán cả buổi khám.<br><br>• Chọn bệnh viện tư để gặp các bác sĩ chuyên môn hơn, uy tín hơn |
+| **Muốn biết tình hình bệnh của bản thân**<br><br>**Kết quả mong muốn**<br>• Cảm thấy an tâm khi nghe kết quả | • Tự giải quyết việc chăm sóc sức khỏe mà không phải dựa hoàn toàn vào người thân.<br>• Có cơ sở sắp xếp công việc thay vì phải ước đoán cả buổi khám.<br>• Chọn bệnh viện tư để gặp các bác sĩ chuyên môn hơn, uy tín hơn |
 
 ## Chân dung
 
@@ -26,11 +24,9 @@
 | :--- | :--- | :--- |
 | **Nam** | **Hà Nội** | **20 triệu/tháng** |
 
-**Nhóm người dùng**<br>
-Người trẻ 18-21 tuổi, mới tốt nghiệp và bắt đầu đi làm.
+**Nhóm người dùng**<br>Người trẻ 18-21 tuổi, mới tốt nghiệp và bắt đầu đi làm.
 
-**Vai trò trong lần khám**<br>
-Tự đi khám; đang học cách tự tổ chức việc khám.
+**Vai trò trong lần khám**<br>Tự đi khám; đang học cách tự tổ chức việc khám.
 
 ## Bối cảnh
 

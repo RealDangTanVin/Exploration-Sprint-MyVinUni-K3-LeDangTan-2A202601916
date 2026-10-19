@@ -1,5 +1,3 @@
-[Minh An](P01-minh-an.md) · [Thanh Hà](P02-thanh-ha.md) · **Minh Đức**
-
 # Minh Đức
 
 ![Chủ động đi khám khi không có con cái đi cùng](assets/minh-duc-persona.svg)

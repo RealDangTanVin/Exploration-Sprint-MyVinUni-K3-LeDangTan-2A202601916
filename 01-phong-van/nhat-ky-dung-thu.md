@@ -3,14 +3,13 @@
 - Ngày thực hiện: 17/10/2026
 - Thiết bị, hệ điều hành, phiên bản app: Samsung S22 Ultra, Android, Phiên bản mới nhất từ GG Store (v3.0.4.0)
 - Cơ sở/luồng có thể kiểm tra bằng tài khoản của chính mình: Đặt lịch hẹn khám.
-- Hạn chế: Chưa thể đến trải nghiệm trực tiếp.
+- Hạn chế: Chưa thể đến trải nghiệm trực tiếp tại cơ sở.
 
-| Mã | Tác vụ an toàn | Nội dung công khai gợi ý | Điều thực sự thấy/làm được | Vướng mắc/cảm nhận của chính bạn | Bằng chứng đã làm sạch |
-| --- | --- | --- | --- | --- | --- |
-| APP-01 | Tìm lịch hẹn và cách đặt, dừng trước xác nhận giao dịch | Đặt lịch đã công bố [S01] | - Đặt lịch hẹn thành công, có xác nhận chờ hẹn khám | - Thủ tục hơi rườm rà, nhiều thông tin có thể gây nhiễu, chưa có các trường autofill các thông tin cơ bản <br>- Không thể hủy được lịch hẹn |  |
-| APP-02 | Trợ lý sức khỏe AI MIA | QR đã công bố [S01] | CHƯA THỬ |  |  |
-| APP-03 | Tìm hồ sơ/kết quả trong tài khoản hợp lệ của chính mình | Hồ sơ và kết nối [S01–S02] | CHƯA THỬ |  |  |
-| APP-04 | Tìm hướng dẫn bước tiếp theo, hỗ trợ | Chưa xác minh tại cơ sở | CHƯA THỬ |  |  |
-| APP-05 | Kiểm tra chữ, đường quay lại, lỗi mạng nếu an toàn | Chưa xác minh | CHƯA THỬ |  |  |
+| Tác vụ an toàn | Nội dung công khai tham khảo | Nội dung đã quan sát/thực hiện | Vướng mắc và đánh giá cá nhân |
+| ------------------------------------------------------- | ------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Tìm kiếm lịch khám và tìm hiểu quy trình đặt lịch, dừng trước bước xác nhận giao dịch | Thông tin đặt lịch đã công bố | - Đặt lịch hẹn thành công và nhận được xác nhận chờ khám | - Quy trình còn nhiều bước; lượng thông tin hiển thị có thể gây khó khăn khi thao tác; chưa hỗ trợ tự động điền các thông tin cơ bản.<br>- Chưa thực hiện được thao tác hủy lịch hẹn. |
+| Trợ lý sức khỏe AI MIA | Mã QR đã công bố | - Mô tả triệu chứng bằng ngôn ngữ thông thường để cung cấp thông tin đầu vào cho AI.<br>- Theo dõi phản hồi để đánh giá chất lượng hỗ trợ của AI.<br>- Thử đặt lịch thông qua trợ lý tích hợp. | - Phản hồi còn dài dòng, cách diễn đạt và xử lý thông tin tương đối phức tạp, đồng thời thể hiện mức độ thận trọng cao; lợi ích hỗ trợ người bệnh chưa rõ ràng trong phạm vi trải nghiệm.<br>- Chưa nhận thấy tính cần thiết của tính năng AI đối với ứng dụng tại thời điểm trải nghiệm. |
+| Xác nhận lịch hẹn | Thông báo và trang chủ ứng dụng | - Kiểm tra lịch hẹn, đối chiếu thông tin đăng ký và kiểm tra thông tin thanh toán. | - Thông tin xác nhận lịch hẹn chưa được thể hiện rõ trên giao diện; giá trị sử dụng của ứng dụng chưa đủ nổi bật để tạo động lực sử dụng chủ động, thay vì chủ yếu sử dụng theo hướng dẫn.<br>- Các tác vụ tương tự có thể được thực hiện nhanh qua website hoặc tổng đài; ngoài chức năng tra cứu kết quả, nhu cầu sử dụng ứng dụng chưa rõ ràng trong phạm vi trải nghiệm. |
 
-Không dùng tài khoản người khác, không tạo lịch giả, không thanh toán và không truy cập dữ liệu y tế không cần thiết. Nếu cần màn hình tài khoản người tham gia, để họ tự điều khiển; không lưu thông tin riêng. Tham chiếu [sổ nguồn](https://github.com/RealDangTanVin/Exploration-Sprint-MyVinUni-K3-LeDangTan-2A202601916/blob/3cbcc36315e6eeeaa602abfc2e556958edb2a4cb/04-best-practice/nguon-nghien-cuu.md).
+
+

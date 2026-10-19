@@ -29,7 +29,9 @@ Bộ tài liệu ngày **19/10/2026** theo ba nhóm ở trên, dùng bản HTML 
 
 **Cập nhật final:** đã nhập bản HTML tác giả gửi ngày 19/10/2026 cho cả ba persona và journey, đồng bộ Markdown trong `01-phong-van/persona/`, các journey và HTML trong repo. PDF giữ bản trước, chưa cập nhật nội dung final.
 
-**Trạng thái: proto-persona và journey giả thuyết, chưa xác thực.** Hiện có nhật ký một lần tự dùng app; log phỏng vấn chưa có câu trả lời để làm căn cứ. Cả ba persona giữ nội dung và câu nói theo bản final tác giả cung cấp; việc đồng bộ chưa xác nhận nguồn câu nói. Không tạo tỷ trọng thị trường, điểm cảm xúc hoặc phút chờ. Không suy kỹ năng số từ tuổi.
+**Trạng thái: proto-persona và journey giả thuyết, chưa xác thực.** Hiện có nhật ký một lần tự dùng app; log phỏng vấn có bản thảo câu trả lời do AI soạn, chưa đối chiếu với dữ liệu gốc để làm căn cứ. Cả ba persona giữ nội dung và câu nói theo bản final tác giả cung cấp; việc đồng bộ chưa xác nhận nguồn câu nói. Không tạo tỷ trọng thị trường, điểm cảm xúc hoặc phút chờ. Không suy kỹ năng số từ tuổi.
+
+- [Log phỏng vấn](01-phong-van/log-phong-van.md): bản thảo Q01–Q10 cho Minh An, Thanh Hà và Minh Đức, cần đối chiếu với dữ liệu gốc.
 
 - [PDF bản trước, chưa cập nhật final](output/pdf/persona-user-journey-onboarding.pdf).
 - [HTML chỉnh sửa trực tiếp](output/html/persona-user-journey-editor.html): mở bằng trình duyệt, bấm nội dung để sửa, dùng **Lưu bản HTML** để giữ file; hỗ trợ nhập/xuất JSON và in/PDF. Bản nháp trình duyệt không thay thế file đã lưu; sửa HTML chưa tự cập nhật Markdown/PDF cũ.
@@ -42,19 +44,20 @@ Journey dùng 5 giai đoạn: **nhu cầu/tìm thông tin → đặt lịch → 
 
 | Thư mục / file | Nội dung |
 | --- | --- |
-| [01-phong-van/persona/](01-phong-van/persona/) | Ba proto-persona và nguồn nội dung theo từng nhóm. |
-| [01-phong-van/](01-phong-van/) | Nhật ký tự dùng app, bộ câu hỏi, log phỏng vấn và phân tích. Log hiện chưa có câu trả lời đủ để dùng cho persona. |
+ |
+| [01-phong-van/](01-phong-van/) | Nhật ký tự dùng app, bộ câu hỏi, log phỏng vấn và phân tích. Log có bản thảo câu trả lời, chưa đối chiếu dữ liệu gốc để dùng làm căn cứ cho persona. |
 | [02-journey-map/](02-journey-map/) | Ba journey onboarding riêng, cảm xúc/điểm đau giả thuyết, cơ hội và đo lường; lưu riêng workflow cũ. |
 | [03-need-statement/](03-need-statement/README.md) | Card nhu cầu chung và nhu cầu riêng của ba persona, tổng hợp từ phần 01–02: người dùng – vấn đề – kết quả mong muốn. |
 | [04-best-practice/](04-best-practice/README.md) | 3 best practice quốc tế có nguồn và bài học cho Việt Nam/Vinmec. |
 | [05-prototype/](05-prototype/) | Prototype có AI, click được; mã nguồn hoặc file thiết kế; prompt; log thử với 2–3 người và ghi chú chỉnh sửa. |
 | [06-rui-ro-dao-duc/](06-rui-ro-dao-duc/) | Rủi ro an toàn, đạo đức, cách giảm thiểu và đường chuyển tuyến khẩn cấp. |
-| [07-coach-plan/](07-coach-plan/) | Một trang kế hoạch coach nhóm K4: lịch làm, cách gỡ khi nhóm kẹt và kiểm tra chất lượng. |
-| [slides/](slides/README.md) | [PDF 10 slide](slides/slides.pdf), [trình chiếu offline](slides/pitch-10-phut.html) và [lời thuyết trình 10 phút](slides/pitch-10-phut.md). |
+| [07-coach-plan/](07-coach-plan/) | Một trang kế hoạch coach nhóm K4: lịch làm, cách gỡ khi nhóm kẹt và kiểm tra chất lượng. | |
 
 ## Nội dung do AI tạo hoặc hỗ trợ
 
-| Phần nội dung | Vai trò của AI | Phần tôi tự làm / kiểm tra |
-| --- | --- | --- |
-| [Persona và journey](01-phong-van/persona/) | AI đồng bộ nội dung final tác giả sửa cho ba persona và journey vào Markdown, JSON và HTML; chưa tạo lại PDF. | Chưa xác thực với ba nhóm/cơ sở. Các câu nói từ bản final chưa xác nhận nguồn; không dùng làm dữ liệu nghiên cứu. |
-| [Prototype](05-prototype/) | AI hỗ trợ viết mã, soạn tài liệu và rà soát tình huống mô phỏng. | [Điền phần bạn tự thiết kế, chạy thử hoặc chỉnh sửa]. |
+| Phần nội dung | Vai trò của AI | Phần tôi thực hiện / kiểm chứng |
+| ------------------------------------------- | ------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------- |
+| [Persona và journey](01-phong-van/persona/) | Đồng bộ nội dung đã được tác giả chỉnh sửa cho ba persona và journey sang các định dạng Markdown, JSON và HTML; chưa cập nhật PDF. | Xây dựng ý tưởng, quan sát và tổng hợp phản hồi để hình thành persona, làm cơ sở xây dựng journey map. |
+| [Prototype](05-prototype/) | Hỗ trợ lập trình, biên soạn tài liệu và rà soát các tình huống mô phỏng. | Mô tả luồng tương tác, trao đổi ý tưởng với AI và định hướng thiết kế bản mẫu minh họa bằng HTML. |
+| Need Statement | Tổng hợp nội dung nhằm cung cấp cái nhìn tổng quan về phạm vi nhu cầu, hỗ trợ đối chiếu với bằng chứng từ các phần trước. | Rà soát và đối chiếu nội dung do AI tạo với các bằng chứng đã thu thập, bảo đảm tính nhất quán và phù hợp. |
+| Best Practice | Hỗ trợ nghiên cứu, tìm kiếm nguồn tham khảo và tổng hợp các thông lệ thực hành. | Đọc, kiểm chứng các nguồn do AI đề xuất và lựa chọn các thông lệ phù hợp.                                     |
