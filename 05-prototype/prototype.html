@@ -55,7 +55,7 @@
     <div class="rail-bottom"><span class="live-dot"></span> Bản thử tương tác <span>v1.0</span><p>Dựa trên 6 màn hình tham chiếu<br>MyVinmec & Zalo · 18.10.2026</p></div>
   </aside>
   <main class="workspace">
-    <header class="workspace-header"><div><span class="eyebrow">MYVINMEC / CẢI TIẾN TRẢI NGHIỆM</span><h1>Đi khám, nhẹ đầu hơn.</h1></div><button class="reference-button" id="open-references">Xem màn tham chiếu <span>↗</span></button></header>
+    <header class="workspace-header"><div><span class="eyebrow">MYVINMEC / CẢI TIẾN TRẢI NGHIỆM</span><h1>Đi khám, nhẹ đầu hơn.</h1></div></header>
     <div class="workspace-grid">
       <section class="preview-area" aria-label="Điện thoại mô phỏng">
         <div class="preview-label"><span class="live-dot"></span><span id="screen-caption">MyVinmec · Trang chủ</span><span class="preview-size">390 × 844</span></div>
@@ -313,7 +313,6 @@ document.addEventListener('input', event => {
 });
 const references = [['trang-chu.jpg','01 · Trang chủ MyVinmec','home'],['dat-lich.jpg','02 · Form đặt lịch hiện tại','booking'],['mia.jpg','03 · Trang chủ MIA','mia'],['canh-bao.jpg','04 · MIA và cảnh báo hỗ trợ','emergency'],['zalo-hop-thu.jpg','05 · Hộp thư Zalo','inbox'],['zalo-oa.jpg','06 · Official Account Zalo','oa']];
 document.querySelector('#reference-grid').innerHTML = references.map(([file,title,screen]) => `<article><h3>${title}</h3><button class="reference-image" aria-label="Phóng to ${title}" data-action="zoom-reference"><img src="${assetUrl(file)}" alt="${title}" loading="lazy"></button>${button('Mở màn dựng lại ↗', `reference-${screen}`, 'text-button')}</article>`).join('');
-document.querySelector('#open-references').addEventListener('click', () => document.querySelector('#references').showModal());
 document.querySelector('#close-references').addEventListener('click', () => document.querySelector('#references').close());
 document.querySelector('#references').addEventListener('click', event => { const target = event.target.closest('[data-action^="reference-"]'); if (target) { const screen = target.dataset.action.slice(10); if (screen === 'booking') state.bookingMode = 'manual'; go(screen); document.querySelector('#references').close(); } });
 document.querySelector('.brand').addEventListener('click', event => { event.preventDefault(); go('home'); });
