@@ -4,8 +4,8 @@
 
 > **Người tự đi khám hoặc đưa con đi khám tại cơ sở chưa quen cần biết việc gì đã hoàn tất và phải làm gì tiếp theo, để chủ động thu xếp việc đi khám và tới đúng phòng khi được gọi.**
 
-| Người dùng | Vấn đề cần giải quyết | Kết quả mong muốn |
-| :--- | :--- | :--- |
+| Người dùng                                                  | Vấn đề cần giải quyết                                                                                                      | Kết quả mong muốn                                                                                |
+| :---------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------- | :----------------------------------------------------------------------------------------------- |
 | Người trực tiếp đi khám hoặc phụ huynh làm thủ tục cho con. | Chưa rõ trạng thái lịch hẹn, bước còn thiếu hoặc nơi cần tới có thể khiến họ phải đoán, hỏi lại và khó sắp xếp việc riêng. | Hiểu tình trạng lần khám, thực hiện được bước tiếp theo và biết nơi tìm hỗ trợ khi có vướng mắc. |
 
 **Phạm vi:** từ nhu cầu đi khám đến khi vào phòng khám lâm sàng, gồm cả lần khám đầu và khám lại; dừng trước nội dung khám, xét nghiệm và thanh toán.
