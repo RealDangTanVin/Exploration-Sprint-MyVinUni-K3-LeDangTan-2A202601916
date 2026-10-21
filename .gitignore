@@ -9,6 +9,7 @@
 Thumbs.db
 .DS_Store
 debug.log
+.obsidian
 
 # Generated review files and duplicate delivery archives.
 /tmp/

@@ -1,9 +1,5 @@
 # Ba best practice trước khi gặp bác sĩ
 
-*Bài học cho phần 01–03 · Đối chiếu nguồn ngày 19/10/2026 · Chưa kiểm chứng tại Vinmec*
-
-> **Chuẩn bị trước khi đến · Rõ trạng thái tiếp nhận · Chủ động thông tin khi chờ**
-
 ## Chuẩn bị trước, xác nhận khi đến
 
 **Cleveland Clinic · Mỹ**
@@ -57,14 +53,3 @@
 Giữ một hướng đơn giản: **mỗi bước cho biết việc đã hoàn tất, việc cần làm tiếp và nơi tìm hỗ trợ**. Đối chiếu với [need statement](../03-need-statement/README.md) trước khi chọn tính năng cho prototype.
 
 Các ví dụ trên mô tả cách làm của từng đơn vị, chưa chứng minh đề xuất sẽ giảm thời gian chờ tại Vinmec. Mốc 30 phút của Walsall không phải cam kết áp dụng cho bài làm; thông tin hàng đợi cần dữ liệu thực tế từ cơ sở.
-
-<a name="phuong-phap-persona-journey"></a>
-
-<details>
-<summary><strong>Phương pháp cho persona và journey</strong></summary>
-
-Theo [hướng dẫn journey mapping của Qualtrics](https://www.qualtrics.com/articles/customer-experience/customer-journey-mapping/), bắt đầu từ persona, chọn hành trình cụ thể, xem hành động, cảm xúc và điểm tiếp xúc rồi thử ý tưởng cải thiện.
-
-Trong bài này, phần 01–02 dừng trước khi gặp bác sĩ. Persona và journey vẫn là giả thuyết; nhật ký tự dùng app chỉ phản ánh lần dùng được ghi lại. Các nguồn quốc tế giúp chọn hướng tìm hiểu, không xác nhận trải nghiệm của ba persona tại Vinmec.
-
-</details>
